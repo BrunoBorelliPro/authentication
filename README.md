@@ -5,6 +5,7 @@ Link do desafio: https://github.com/backend-br/desafios/blob/master/authenticati
 
 ## Rodando o projeto
 Este projeto foi construído com python, fastapi e sqlalchemy.
+Copie o conteúdo do arquivo .env.template para um arquivo .env na raiz do projeto.
 
 * Passo 1 (opcional)
     [Link para o pipx](https://pipx.pypa.io/stable/installation/#installing-pipx)
