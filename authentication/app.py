@@ -17,7 +17,6 @@ def read_root():
     return {'message': 'Hello World'}
 
 
-
 # T_current_user = Annotated[User, Depends(get_current_user)]
 # get_current_user é uma função que retorna o usuário do token JWT
 # get_current_user é uma dependência que é injetada em rotas que precisam de um usuário autenticado

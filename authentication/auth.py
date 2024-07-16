@@ -19,7 +19,6 @@ T_token = Annotated[str, Depends(oauth2_scheme)]
 settings = Settings()
 
 
-
 def get_current_user(jwt_token: T_token, session=Depends(get_session)):
     credentials_exception = HTTPException(
         status_code=HTTPStatus.UNAUTHORIZED,
